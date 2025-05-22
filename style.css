@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 30%;
+  background-color: #1c3b57;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.sidebar ul {
+  list-style: disc;
+  padding-left: 20px;
+  text-align: left;
+  width: 100%;
+}
+
+.content {
+  width: 70%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 28px;
+}
+
+h2 {
+  margin-top: -10px;
+  color: gray;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.job ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.reference.collapsed {
+  display: none;
+}
+
+button {
+  font-size: 12px;
+  padding: 5px 12px;
+  border: 1px solid #ccc;
+  background-color: #d3d3d3;
+  color: #1c1c1c;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 3px 3px 3px 0;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b0b0b0;
+}
+
+/* Redaktə aktiv olan elementlər üçün */
+.editable {
+  outline: 2px solid #4a90e2;
+  background-color: #eef6ff;
+  padding: 2px 4px;
+  border-radius: 3px;
+  cursor: text;
+}
+
+/* Redaktə düyməsi aktiv olduqda */
+button.edit-toggle-active {
+  background-color: #4a90e2;
+  color: white;
+  border-color: #357ABD;
+}

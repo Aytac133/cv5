@@ -1,0 +1,33 @@
+{
+  "contact": ["055273****", "xlilova********@gmail.com"],
+  "education": [
+    "2013-2024\n209 nömrəli məktəb",
+    "2024-2028\nAzərbaycan texniki universiteti"
+  ],
+  "skills": [
+    "Lahiyə idarəetməsi",
+    "Qrup işi",
+    "Solution problems",
+    "Kritik düşünmə",
+    "Empatiya"
+  ],
+  "languages": [
+    "Turkish(Fluent)",
+    "Azerbaijan(Fluent)",
+    "Russian(Basics)",
+    "English(Intermediate)"
+  ],
+  "profile": {
+    "name": "Xəlilova Aytac Elşən qızı",
+    "phone": "055273****",
+    "position": "Nüfuzetmə sınaqçısı"
+  },
+  "experience": ["Yoxdur"],
+  "reference": [
+    "Hal-hazırda tələbəyəm.",
+    "Kali Linux mühitində işləmişəm.",
+    "Maltego və digər OSİNT alətlərindəndən istifadə etmişəm.",
+    "C++ dilində orta səviyyədəyəm.",
+    "İlkin software bilikləri tanışam."
+  ]
+}
