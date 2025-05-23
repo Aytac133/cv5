@@ -12,63 +12,53 @@
         <h3>Əlaqə</h3>
         <button onclick="toggleContact()">Gizlət / Göstər</button>
         <button onclick="toggleEditing(this)">Redaktəni Aktivləşdir</button>
-        <p>055273****</p>
-        <p>xlilova********@gmail.com</p>
+        <div class="contact-content"></div>
       </div>
       <div class="education">
         <h3>Təhsil</h3>
         <button onclick="toggleEducation()">Gizlət / Göstər</button>
         <button onclick="toggleEditing(this)">Redaktəni Aktivləşdir</button>
-        <p>2013-2024<br /><strong>209 nömrəli məktəb</strong></p>
-        <p>2024-2028<br /><strong>Azərbaycan texniki universiteti</strong></p>
+        <div class="education-content"></div>
       </div>
       <div class="skills">
         <h3>Bacarıqlar</h3>
         <button onclick="toggleSkills()">Gizlət / Göstər</button>
         <button onclick="toggleEditing(this)">Redaktəni Aktivləşdir</button>
-        <ul>
-          <li>Lahiyə idarəetməsi</li>
-          <li>Qrup işi</li>
-          <li>Solution problems</li>
-          <li>Kritik düşünmə</li>
-          <li>Empatiya</li>
-        </ul>
+        <ul class="skills-content"></ul>
       </div>
       <div class="languages">
         <h3>Dillər</h3>
         <button onclick="toggleLanguages()">Gizlət / Göstər</button>
         <input type="text" id="languageSearch" onkeyup="filterLanguages()" placeholder="Dil axtar..." />
         <button onclick="toggleEditing(this)">Redaktəni Aktivləşdir</button>
-        <p>Turkish(Fluent)</p>
-        <p>Azerbaijan(Fluent)</p>
-        <p>Russian(Basics)</p>
-        <p>English(Intermediate)</p>
+        <div class="languages-content"></div>
       </div>
+      <button onclick="resetAll()">Hamısını Sıfırla</button>
     </aside>
+
     <main class="content">
-      <h1><span class="bold"></span>SANCHEZ</h1>
-      <h2>Nüfuzetmə sınaqçısı</h2>
+      <h1><span class="bold profile-name"></span></h1>
+      <h2 class="profile-position"></h2>
+
       <section class="profile">
         <h3>Haqqımda</h3>
         <button onclick="toggleEditing(this)">Redaktəni Aktivləşdir</button>
-        <p><strong>Xəlilova Aytac Elşən qızı</strong><br />055273****</p>
+        <p><strong class="profile-name"></strong><br /><span class="profile-phone"></span></p>
       </section>
-      <section class="expeirence">
+
+      <section class="experience">
         <h3>İş təcrübəsi</h3>
         <div class="job">
           <button onclick="toggleEditing(this)">Redaktəni Aktivləşdir</button>
-          <p>Yoxdur</p>
+          <div class="experience-content"></div>
         </div>
       </section>
+
       <section class="reference">
         <h3>Texniki biliklər</h3>
         <button onclick="toggleTechnical()">Gizlət / Göstər</button>
         <button onclick="toggleEditing(this)">Redaktəni Aktivləşdir</button>
-        <p>Hal-hazırda tələbəyəm.</p>
-        <p>Kali Linux mühitində işləmişəm.</p>
-        <p>Maltego və digər OSİNT alətlərindəndən istifadə etmişəm.</p>
-        <p>C++ dilində orta səviyyədəyəm.</p>
-        <p>İlkin software bilikləri tanışam.</p>
+        <ul class="reference-content"></ul>
       </section>
     </main>
   </div>
